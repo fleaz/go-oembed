@@ -2,8 +2,8 @@ package oembed
 
 import (
 	"encoding/json"
-	"strconv"
 	"io"
+	"strconv"
 
 	"github.com/Jeffail/gabs"
 )
@@ -34,7 +34,7 @@ func NewInfo() *Info {
 }
 
 func jsonUint64(n json.Number) (uint64, error) {
-    return strconv.ParseUint(string(n), 10, 64)
+	return strconv.ParseUint(string(n), 10, 64)
 }
 
 // FillFromJSON fills the structure from provided Oembed JSON

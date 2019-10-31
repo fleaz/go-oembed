@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dyatlov/go-oembed/oembed"
+	"github.com/fleaz/go-oembed/oembed"
 )
 
 func main() {
